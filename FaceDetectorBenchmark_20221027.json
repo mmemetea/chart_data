@@ -1,0 +1,41 @@
+﻿[
+  {
+    "fullName": "VisionBox.Biometrics.Faces.Benchmarks.FaceDetectorBenchmark.RunBenchmarkAsync(Resolution: UHD, Benchmark: Detect, AcquisitionType: \"N.A.\", DetectSegments: False, FullFrontal: \"N.A.\", TokenFrontal: \"N.A.\")",
+    "namespace": "VisionBox.Biometrics.Faces.Benchmarks",
+    "type": "FaceDetectorBenchmark",
+    "method": "RunBenchmarkAsync",
+    "parameters": "Resolution=UHD&Benchmark=Detect&AcquisitionType=N.A.&DetectSegments=False&FullFrontal=N.A.&TokenFrontal=N.A.",
+    "cells": [
+      {
+        "creation": "2022-10-27T17:47:03+01:00",
+        "buildNumber": "3",
+        "meanTime": 10537906.3541667,
+        "minTime": 8830726.5625,
+        "q1Time": 10166138.28125,
+        "medianTime": 10368521.875,
+        "q3Time": 10823339.0625,
+        "maxTime": 12012039.0625
+      },
+      {
+        "creation": "2022-10-27T16:16:22+01:00",
+        "buildNumber": "2",
+        "meanTime": 9480724.80736301,
+        "minTime": 8530081.25,
+        "q1Time": 9196284.375,
+        "medianTime": 9527370.3125,
+        "q3Time": 9702087.5,
+        "maxTime": 10610132.8125
+      },
+      {
+        "creation": "2022-10-25T23:24:33+01:00",
+        "buildNumber": "1",
+        "meanTime": 8173954.20138889,
+        "minTime": 7790168.75,
+        "q1Time": 7867285.9375,
+        "medianTime": 8149453.125,
+        "q3Time": 8328532.8125,
+        "maxTime": 8867746.875
+      }
+    ]
+  }
+]

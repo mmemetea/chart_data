@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>VisionBox.Biometrics.Faces.Benchmarks.FaceDetectorBenchmark-20221028-090850</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.2, OS=Windows 11 (10.0.22621.755)
+11th Gen Intel Core i7-11800H 2.30GHz, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.402
+  [Host] : .NET 6.0.10 (6.0.1022.47605), X64 RyuJIT AVX2 DEBUG  [AttachedDebugger]
+</code></pre>
+<pre><code>Method=RunBenchmarkAsync  Job=InProcess  Toolchain=InProcessEmitToolchain  
+InvocationCount=Default  IterationCount=Default  UnrollFactor=16  
+WarmupCount=Default  
+</code></pre>
+
+<table>
+<thead><tr><th>Resolution</th><th>Benchmark</th><th>AcquisitionType</th><th>DetectSegments</th><th>FullFrontal</th><th>TokenFrontal</th><th>Mean [ms]</th><th>Error [ms]</th><th>StdDev [ms]</th><th>StdErr [ms]</th><th>Min [ms]</th><th>Q1 [ms]</th><th>Median [ms]</th><th>Q3 [ms]</th><th>Max [ms]</th><th>Op/s</th><th>Allocated [KB]</th>
+</tr>
+</thead><tbody><tr><td>UHD</td><td>Detect</td><td>N.A.</td><td>False</td><td>N.A.</td><td>N.A.</td><td>7.891</td><td>0.0381</td><td>0.0318</td><td>0.0088</td><td>7.841</td><td>7.874</td><td>7.893</td><td>7.902</td><td>7.965</td><td>126.73</td><td>1.05</td>
+</tr><tr><td>UHD</td><td>Detect</td><td>N.A.</td><td>True</td><td>N.A.</td><td>N.A.</td><td>25.857</td><td>0.5161</td><td>0.5522</td><td>0.1302</td><td>24.974</td><td>25.454</td><td>25.789</td><td>26.181</td><td>27.204</td><td>38.67</td><td>5.52</td>
+</tr><tr><td>FullHD</td><td>Detect</td><td>N.A.</td><td>False</td><td>N.A.</td><td>N.A.</td><td>7.655</td><td>0.0998</td><td>0.0779</td><td>0.0225</td><td>7.530</td><td>7.599</td><td>7.654</td><td>7.696</td><td>7.809</td><td>130.63</td><td>1.05</td>
+</tr><tr><td>FullHD</td><td>Detect</td><td>N.A.</td><td>True</td><td>N.A.</td><td>N.A.</td><td>14.452</td><td>0.2448</td><td>0.4415</td><td>0.0689</td><td>13.812</td><td>14.140</td><td>14.353</td><td>14.658</td><td>15.528</td><td>69.20</td><td>5.51</td>
+</tr></tbody></table>
+</body>
+</html>
